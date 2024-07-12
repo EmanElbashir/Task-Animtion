@@ -1,0 +1,105 @@
+
+
+
+.main {
+    width: 100px;
+    height: 100px;
+    background-color: #f397ed;
+    margin: 20px;
+    border-radius: 50%;
+    position: relative;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    text-align: center;
+    color: #fff;
+}
+
+.main h2 {
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.one{
+    right: 0%;
+    animation-name: change;
+}
+
+.two{
+    background-color: #93e3f7;
+    left:  90%;
+    animation-name: right-change;
+    animation-delay: 3s;
+
+}
+.three{
+    background-color: rgb(212, 126, 191);
+    right: 0%;
+    animation-name: change;
+    animation-delay: 6s;
+}
+.four{
+    background-color:#4accec;
+    right: -90%;
+    animation-name: right-change;
+    animation-delay: 9s;
+}
+.five{
+    background-color: rgb(247, 168, 234);
+    right: 0%;
+    animation-name: change;
+    animation-delay: 12s;
+}
+
+.six{
+    background-color:#2ca4c2;
+    right: -90%;
+    animation-name: right-change;
+    animation-delay: 15s;
+}
+.sev{
+    background-color:#f736d7;
+    right: 0%;
+    animation-name: change;
+    animation-delay: 18s;
+}
+
+.eight{
+    background-color:#0ac3f1;
+    right: -90%;
+    animation-name: right-change;
+    animation-delay: 21s;
+}
+
+@keyframes change{
+0%{
+}
+25%{
+   right: -25%;
+}
+50%{
+    right: -50%;
+ }
+ 100%{
+    right: -90%;
+    }
+
+}
+@keyframes right-change{
+    0%{
+       left:  90%;
+    }
+
+    25%{
+        left:  50%;
+     }
+
+    50%{
+        left:  30%;
+     }
+
+  
+    100%{
+        left:  0%;
+     }
+    
+}
